@@ -2,26 +2,15 @@
 
 # Cache Simulator
 
-![Version](https://img.shields.io/badge/version-1.4.3-blue)
-![C++20](https://img.shields.io/badge/C%2B%2B-20-orange)
-![License](https://img.shields.io/badge/license-Apache%202.0-blue)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
-
-[![Contributors](https://img.shields.io/github/contributors/muditbhargava66/CacheSimulator)](https://github.com/muditbhargava66/CacheSimulator/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/muditbhargava66/CacheSimulator)](https://github.com/muditbhargava66/CacheSimulator/commits/main)
-[![Open Issues](https://img.shields.io/github/issues/muditbhargava66/CacheSimulator)](https://github.com/muditbhargava66/CacheSimulator/issues)
-[![Stars](https://img.shields.io/github/stars/muditbhargava66/CacheSimulator)](https://github.com/muditbhargava66/CacheSimulator/stargazers)
-
 **A state-of-the-art cache and memory hierarchy simulator featuring advanced prefetching, multi-processor support, power/area modeling, and comprehensive performance analysis tools.**
 
-![Cache Simulator Banner](assets/github-banner-modern.svg)
 
-[**Documentation**](docs/) | [**Quick Start**](#quick-start) | [**Features**](#key-features) | [**Benchmarks**](#benchmarks) | [**Contributing**](#contributing)
+
+[**Documentation**](docs/) | [**Quick Start**](#quick-start) | [**Features**](#key-features) | [**Benchmarks**](#benchmarks) 
 
 </div>
 
-## What's New in v1.4.3
+## What's New 
 
 - **Cache Associativity Bug Fix**: Hit ratio no longer decreases with increasing associativity
 - **PLRU Correctness**: Fixed floating-point truncation in tree-walk depth; added power-of-2 guard
@@ -74,7 +63,7 @@
 
 #### Linux / macOS
 ```bash
-git clone https://github.com/muditbhargava66/CacheSimulator.git
+git clone https://github.com/vijayprajapatii/CacheSimulator.git
 cd CacheSimulator
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
@@ -83,7 +72,7 @@ cmake --build . -j$(nproc)
 
 #### Windows (PowerShell)
 ```powershell
-git clone https://github.com/muditbhargava66/CacheSimulator.git
+git clone https://github.com/vijayprajapatii/CacheSimulator.git
 cd CacheSimulator
 .\build.ps1
 ```
@@ -260,16 +249,8 @@ See [docs/README.md](docs/README.md) for complete documentation index:
 - [Architecture](docs/developer/architecture.md) - System design
 - [API Reference](docs/developer/api-reference.md) - Code API
 
-## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](contributing.md) for details.
 
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ### Code Style
 - Follow the existing C++20 style
@@ -277,19 +258,7 @@ We welcome contributions! Please see our [Contributing Guide](contributing.md) f
 - Add comments for complex logic
 - Include unit tests for new features
 
-## Citation
 
-If you use this simulator in your research, please cite:
-
-```bibtex
-@software{CacheSimulator2026,
-  author = {Mudit Bhargava},
-  title = {Cache Simulator: A C++20 Cache and Memory Hierarchy Simulator},
-  version = {1.4.3},
-  year = {2026},
-  url = {https://github.com/muditbhargava66/CacheSimulator}
-}
-```
 
 ## Performance Tips
 
@@ -312,15 +281,9 @@ This simulator is ideal for:
 
 <div align="center">
 
-**Star this repo if you find it useful!**
-
-[![Star History Chart](https://api.star-history.com/svg?repos=muditbhargava66/CacheSimulator&type=Date)](https://star-history.com/#muditbhargava66/CacheSimulator&Date)
 
 
-📫 **Contact**: [@muditbhargava66](https://github.com/muditbhargava66)
-🐛 **Report Issues**: [Issue Tracker](https://github.com/muditbhargava66/CacheSimulator/issues)
 
-© 2026 Mudit Bhargava. [Apache License 2.0](LICENSE)
-<!-- Copyright symbol using HTML entity for better compatibility -->
+
 
 </div>
